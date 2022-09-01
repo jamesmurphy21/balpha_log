@@ -10,21 +10,8 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-  <ul class="nav">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Gallery </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled">Disabled</a>
-    </li>
-</ul>
+  <body class="d-flex flex-column">
+    <%= render 'layouts/navigation' %>
     <%= render 'layouts/messages' %>
     <%= yield %>
   </body>

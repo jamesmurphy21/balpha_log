@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<a class="nav-link" href="#">Contact Me</a>
+<a class="btn btn-secondary btn-lg" href="#" role="button">Contact</a>

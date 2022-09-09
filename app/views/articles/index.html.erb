@@ -1,4 +1,3 @@
-<div id="page-content"> 
   <h1 class="text-center mt-4">Listing all articles</h1>
 
   <div class="container"> 
@@ -16,7 +15,7 @@
                 <%= link_to "Edit", edit_article_path(article), class:"btn btn-outline-info" %>
                 <%= link_to "Delete", article_path(article),method: :Delete, data: { confirm: "Are you sure?"}, class:"btn btn-outline-danger" %>
               </div>
-            <div class="card-footer text-muted">
+              <div class="card-footer text-muted">
               <small>Created <%= time_ago_in_words(article.created_at) %>ago, 
               edited <%= time_ago_in_words(article.updated_at) %>ago</small> 
             </div>
@@ -25,4 +24,3 @@
       </div>   
     <% end %>
   </div>
-</div> 
